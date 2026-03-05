@@ -18,7 +18,7 @@ jobs:
         run: date
 
       - name: print branch name
-        run: echo "branch name:" {{ github.ref_name }}
+        run: echo "Branch:" ${{ github.ref_name }}
 
         
         
