@@ -13,5 +13,13 @@ jobs:
 
       - name: print message
         run: echo "Hello from GitHub"
+
+      - name: Print date and time
+        run: date
+
+      - name: print branch name
+        run: echo "branch name:" {{ github.ref_name }}
+
+        
         
     
